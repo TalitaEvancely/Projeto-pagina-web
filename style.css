@@ -2,3 +2,18 @@ body{
     background-color: rgb(213, 193, 231);
    
 }
+
+#title, .subtitle, .post-title{
+    background-color: rgb(215, 215, 233);
+    color: blue;
+
+}
+#title{
+    font-size: 50px;
+}
+.subtitle, .post-title{
+   font-size: 20px;
+   font-style: italic; 
+   border: 3px solid rgb(115, 115, 168);
+   border-radius: 1%;
+}
