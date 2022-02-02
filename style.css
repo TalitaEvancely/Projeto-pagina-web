@@ -1,19 +1,49 @@
 body{
-    background-color: rgb(213, 193, 231);
-   
+    background-color: rgb(226, 225, 225);
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    margin-bottom: 15px;
+
+}
+.kbc{
+     border-radius: 50%;
+     padding-left: 15px;
 }
 
 #title, .subtitle, .post-title{
-    background-color: rgb(215, 215, 233);
-    color: blue;
+    background-color: gray;
+    color: black;
+    border: 3px solid rgb(250, 250, 121);
+    border-radius: 1%;
 
 }
+
+
 #title{
     font-size: 50px;
+    padding:15px 20px ;
+}
+.post-title{
+    margin: 0;
+    margin-bottom: 15px;
 }
 .subtitle, .post-title{
    font-size: 20px;
    font-style: italic; 
-   border: 3px solid rgb(115, 115, 168);
-   border-radius: 1%;
+   padding-left: 15px;
+}
+.post-content{
+    margin: 0;
+    margin-bottom: 20px;
+   
+    
+}
+
+p{
+    color: black;
+    font-size: large;
+    padding-left: 15px;
+}
+a{
+    color: black;
 }
