@@ -46,8 +46,6 @@ body{
     margin-bottom: 20px;
     text-transform: uppercase;
     text-align: left;
-   
-    
 }
 
 p{
@@ -55,10 +53,10 @@ p{
     padding-left: 15px;
 }
 a{
-        text-decoration:overline ;
+        text-decoration:none ;
+    
 }
 .contact-list{
     list-style-type:none;
-    padding-left:15px;
-    
+    padding-left:15px; 
 }
